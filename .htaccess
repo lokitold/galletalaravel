@@ -2,6 +2,7 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^sitemap_index.xml$ /index.php?sitemap=1 [L]
+RewriteRule ^sitemap.xml$ /index.php?sitemap=1 [L]
 RewriteRule ^locations.kml$ /index.php?sitemap=wpseo_local_kml [L]
 RewriteRule ^geo_sitemap.xml$ /index.php?sitemap=geo [L]
 RewriteRule ^([^/]+?)-sitemap([0-9]+)?.xml$ /index.php?sitemap=$1&sitemap_n=$2 [L]
