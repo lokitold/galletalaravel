@@ -4,4 +4,4 @@ Disallow: /wp-includes/
 Disallow: /*trackback
 Disallow: /wp-login/
 Disallow: /*feed
-Sitemap: http://www.galletalaravel.com/sitemap.xml 
+Sitemap: http://www.galletalaravel.com/sitemap.xml
