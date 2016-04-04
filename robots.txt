@@ -5,3 +5,4 @@ Disallow: /*trackback
 Disallow: /wp-login/
 Disallow: /*feed
 Sitemap: http://www.galletalaravel.com/sitemap.xml
+asfsadf
