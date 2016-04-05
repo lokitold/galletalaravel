@@ -64,7 +64,7 @@ elseif (APPLICATION_ENV == 'local'):
 	/** El tipo de cotejamiento de la base de datos. Si tiene dudas, no lo modifique. */
 	define('DB_COLLATE', '');
 endif;
- 
+
 /**#@+
  * Claves únicas de autenticación y salts.
  *
