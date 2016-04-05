@@ -18,24 +18,52 @@
  * @package WordPress
  */
 
-// ** Ajustes de MySQL. Solcite esta información a su proveedor de alojamiento web. ** //
-/** El nombre de la base de datos de WordPress */
-define('DB_NAME', 'heroku_69e8bb93c498599');
+// Define application environment
+defined('APPLICATION_ENV')
+|| define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production'));
 
-/** Nombre de usuario de la base de datos de MySQL */
-define('DB_USER', 'b1b00b3607a741');
 
-/** Contraseña del usuario de la base de datos de MySQL */
-define('DB_PASSWORD', '03c55081');
+if(APPLICATION_ENV == 'production'):
 
-/** Nombre del servidor de MySQL (generalmente es localhost) */
-define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+	// ** Ajustes de MySQL. Solcite esta información a su proveedor de alojamiento web. ** //
+	/** El nombre de la base de datos de WordPress */
+	define('DB_NAME', 'heroku_69e8bb93c498599');
 
-/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
-define('DB_CHARSET', 'utf8');
+	/** Nombre de usuario de la base de datos de MySQL */
+	define('DB_USER', 'b1b00b3607a741');
 
-/** El tipo de cotejamiento de la base de datos. Si tiene dudas, no lo modifique. */
-define('DB_COLLATE', '');
+	/** Contraseña del usuario de la base de datos de MySQL */
+	define('DB_PASSWORD', '03c55081');
+
+	/** Nombre del servidor de MySQL (generalmente es localhost) */
+	define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+
+	/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
+	define('DB_CHARSET', 'utf8');
+
+	/** El tipo de cotejamiento de la base de datos. Si tiene dudas, no lo modifique. */
+	define('DB_COLLATE', '');
+
+elseif (APPLICATION_ENV == 'local'):
+	// ** Ajustes de MySQL. Solcite esta información a su proveedor de alojamiento web. ** //
+	/** El nombre de la base de datos de WordPress */
+	define('DB_NAME', 'heroku_69e8bb93c498599');
+
+	/** Nombre de usuario de la base de datos de MySQL */
+	define('DB_USER', 'root');
+
+	/** Contraseña del usuario de la base de datos de MySQL */
+	define('DB_PASSWORD', '123456');
+
+	/** Nombre del servidor de MySQL (generalmente es localhost) */
+	define('DB_HOST', 'localhost');
+
+	/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
+	define('DB_CHARSET', 'utf8');
+
+	/** El tipo de cotejamiento de la base de datos. Si tiene dudas, no lo modifique. */
+	define('DB_COLLATE', '');
+endif;
 
 /**#@+
  * Claves únicas de autenticación y salts.
@@ -46,14 +74,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'put your unique phrase here16');
+define('SECURE_AUTH_KEY',  'put your unique phrase here16');
+define('LOGGED_IN_KEY',    'put your unique phrase here16');
+define('NONCE_KEY',        'put your unique phrase here16');
+define('AUTH_SALT',        'put your unique phrase here16');
+define('SECURE_AUTH_SALT', 'put your unique phrase here16');
+define('LOGGED_IN_SALT',   'put your unique phrase here16');
+define('NONCE_SALT',       'put your unique phrase here16');
 
 /**#@-*/
 
