@@ -33,7 +33,7 @@ function translations_api( $type, $args = null ) {
 	 * @param object      $args   Translation API arguments.
 	 */
 	$res = apply_filters( 'translations_api', false, $type, $args );
-
+ 
 	if ( false === $res ) {
 		$url = $http_url = 'http://api.wordpress.org/translations/' . $type . '/1.0/';
 		if ( $ssl = wp_http_supports( array( 'ssl' ) ) ) {
