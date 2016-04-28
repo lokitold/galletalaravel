@@ -30,16 +30,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Una sola página - 3 (www.galletalaravel.com) -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4967885092260965"
-     data-ad-slot="3625955532"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 <div id="page" class="hfeed site">
 
