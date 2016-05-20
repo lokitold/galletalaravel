@@ -29,14 +29,23 @@ if(APPLICATION_ENV == 'production'):
 	/** El nombre de la base de datos de WordPress */
 	define('DB_NAME', 'heroku_69e8bb93c498599');
 
+//	/** Nombre de usuario de la base de datos de MySQL */
+//	define('DB_USER', 'b1b00b3607a741');
+//
+//	/** Contraseña del usuario de la base de datos de MySQL */
+//	define('DB_PASSWORD', '03c55081');
+//
+//	/** Nombre del servidor de MySQL (generalmente es localhost) */
+//	define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+
 	/** Nombre de usuario de la base de datos de MySQL */
-	define('DB_USER', 'b1b00b3607a741');
+	define('DB_USER', 'victor');
 
 	/** Contraseña del usuario de la base de datos de MySQL */
-	define('DB_PASSWORD', '03c55081');
+	define('DB_PASSWORD', 'test123456');
 
 	/** Nombre del servidor de MySQL (generalmente es localhost) */
-	define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+	define('DB_HOST', 'ec2-52-26-115-97.us-west-2.compute.amazonaws.com');
 
 	/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
 	define('DB_CHARSET', 'utf8');
@@ -50,13 +59,13 @@ elseif (APPLICATION_ENV == 'local'):
 	define('DB_NAME', 'heroku_69e8bb93c498599');
 
 	/** Nombre de usuario de la base de datos de MySQL */
-	define('DB_USER', 'b1b00b3607a741');
+	define('DB_USER', 'victor');
 
 	/** Contraseña del usuario de la base de datos de MySQL */
-	define('DB_PASSWORD', '03c55081');
+	define('DB_PASSWORD', 'test123456');
 
 	/** Nombre del servidor de MySQL (generalmente es localhost) */
-	define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
+	define('DB_HOST', 'ec2-52-26-115-97.us-west-2.compute.amazonaws.com');
 
 	/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
 	define('DB_CHARSET', 'utf8');
