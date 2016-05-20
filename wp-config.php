@@ -50,19 +50,23 @@ elseif (APPLICATION_ENV == 'local'):
 	define('DB_NAME', 'heroku_69e8bb93c498599');
 
 	/** Nombre de usuario de la base de datos de MySQL */
-	define('DB_USER', 'root');
+	define('DB_USER', 'b1b00b3607a741');
 
 	/** Contraseña del usuario de la base de datos de MySQL */
-	define('DB_PASSWORD', '123456');
+	define('DB_PASSWORD', '03c55081');
 
 	/** Nombre del servidor de MySQL (generalmente es localhost) */
-	define('DB_HOST', 'localhost');
+	define('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net');
 
 	/** Codificación de caracteres para usar en la creación de las tablas de la base de datos. */
 	define('DB_CHARSET', 'utf8');
 
 	/** El tipo de cotejamiento de la base de datos. Si tiene dudas, no lo modifique. */
 	define('DB_COLLATE', '');
+
+	define('WP_HOME','http://loc.galletalaravel.com');
+
+	define('WP_SITEURL','http://loc.galletalaravel.com');
 endif;
 
 /**#@+
