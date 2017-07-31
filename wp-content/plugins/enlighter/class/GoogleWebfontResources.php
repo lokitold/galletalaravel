@@ -11,11 +11,13 @@ return array (
   'Fira Mono' => 'Fira+Mono:regular,700',
   'Inconsolata' => 'Inconsolata:regular,700',
   'Nova Mono' => 'Nova+Mono:regular',
+  'Overpass Mono' => 'Overpass+Mono:regular,700',
   'Oxygen Mono' => 'Oxygen+Mono:regular',
   'PT Mono' => 'PT+Mono:regular',
   'Roboto Mono' => 'Roboto+Mono:regular,italic,700,700italic',
   'Share Tech Mono' => 'Share+Tech+Mono:regular',
   'Source Code Pro' => 'Source+Code+Pro:regular,700',
+  'Space Mono' => 'Space+Mono:regular,italic,700,700italic',
   'Ubuntu Mono' => 'Ubuntu+Mono:regular,italic,700,700italic',
   'VT323' => 'VT323:regular',
 );
