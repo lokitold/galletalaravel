@@ -1,7 +1,7 @@
 # galletalaravel
 Tips, ayuda , anécdotas sobre el uso del framework Laravel ..
 
-
+hola
 # 
 loc.galletalaravel.com
     <VirtualHost *:80>
