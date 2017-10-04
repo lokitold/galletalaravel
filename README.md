@@ -2,7 +2,7 @@
 Tips, ayuda , anécdotas sobre el uso del framework Laravel ..
 
 
-#
+# 
 loc.galletalaravel.com
     <VirtualHost *:80>
        DocumentRoot "/var/www/html/galletalaravel"
