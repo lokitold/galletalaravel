@@ -2,3 +2,4 @@
 .htaccess
 .env
 wp-content/uploads/
+wp-config.php
